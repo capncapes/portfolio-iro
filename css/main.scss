@@ -23,6 +23,7 @@ header > p > span {
 
 code {
     color: rgba(56, 56, 56, 0.75);
+    font-size: 75%;
 }
 
 .code {
@@ -38,7 +39,7 @@ h1.title {
 }
 
 .html {
-    border-left-color: orange;
+    border-left-color: #f98720;
 }
 
 .css {
@@ -61,7 +62,7 @@ h1.title {
 .form-name, .form-email {
     width: 47.75%;
     height: 3rem;
-    border: 2px solid #f98752;
+    border: 2px solid #f98720;
 }
 
 .form-name {
@@ -79,7 +80,7 @@ h1.title {
     width: 97%;
     height: 6rem;
     margin: 1% 1.5%;
-    border: 2px solid #f98752;
+    border: 2px solid #f98720;
 }
 
 .submit {
@@ -90,11 +91,11 @@ h1.title {
     padding: 0.5% 1%;
     color: rgb(56, 56, 56);
     background-color: white;
-    border: 2px solid #f98752;
+    border: 2px solid #f98720;
     font-weight: 600;
 }
 
 .submit:hover {
-    background-color: #f98752;
+    background-color: #f98720;
     color: white;
 }
