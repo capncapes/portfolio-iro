@@ -2,7 +2,7 @@
 layout: post
 title: BlocJams
 feature-img: "img/sample_feature_img.png"
-thumbnail-path: "img/bloc-jams_3x4.png"
+thumbnail-path: "img/bloc_jams_3x4.png"
 short-description: BlocJams is a music player similar to Spotify.
 
 ---
@@ -48,3 +48,5 @@ This provided me with the correct display.
 
 ### Conclusion
 In the end, BlocJams played as it should, after some tweaks. Though it's relatively simple from a user's perspective, this project taught me a lot about JavaScript, particularly the complexity of seemingly simple web applications.
+
+<a href="https://brandon-caples-bloc-jams.netlify.com/" target="_blank">This project is hosted on Netlify.</a>
