@@ -6,7 +6,7 @@ url: "http://brandoncaples.com" # the base hostname & protocol for your site
 theme_settings:
   # Meta
   title: Brandon Caples
-  avatar: avatar.png
+  avatar: rocketship.png
   gravatar: # Email MD5 hash
   description: "A web designer and developer" # used by search engines
 
