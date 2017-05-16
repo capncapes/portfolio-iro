@@ -2,7 +2,7 @@
 layout: page
 title: Contact
 permalink: /contact/
-feature-img: "img/contact.jpg"
+feature-img: "img/feature_image_5.png"
 ---
 
 Got a question? Want to meet me? Send me a message! I'd love to read it, and I'll respond as soon as I can. Cheers!

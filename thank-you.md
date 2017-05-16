@@ -2,7 +2,7 @@
 layout: page
 title: Thank You
 permalink: /thank-you/
-feature-img: "img/thank_you.jpg"
+feature-img: "img/feature_image_8.png"
 hide: true
 ---
 

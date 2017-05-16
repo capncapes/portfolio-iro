@@ -2,7 +2,7 @@
 layout: page
 title: R&#233;sum&#233;
 permalink: /resume/
-feature-img: "img/sample_feature_img_2.png"
+feature-img: "img/feature_image_7.png"
 hide: true
 ---
 

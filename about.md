@@ -2,7 +2,7 @@
 layout: page
 title: About
 permalink: /about/
-feature-img: "img/brandon_caples.jpg"
+feature-img: "img/feature_image_3.png"
 ---
 
 I'm Brandon, a marketing assistant in the financial services sector and a student of web development working toward a rewarding career building web applications.

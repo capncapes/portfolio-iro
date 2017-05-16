@@ -1,7 +1,7 @@
 ---
 layout: post
 title: BlocJams Angular
-feature-img: "img/sample_feature_img.png"
+feature-img: "img/feature_img_2.png"
 thumbnail-path: "img/bloc_jams_angular_3x4.png"
 short-description: BlocJams is a music player built with AngularJS.
 

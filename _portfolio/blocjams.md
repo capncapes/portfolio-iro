@@ -1,7 +1,7 @@
 ---
 layout: post
 title: BlocJams
-feature-img: "img/sample_feature_img.png"
+feature-img: "img/feature_img_1.png"
 thumbnail-path: "img/bloc_jams_3x4.png"
 short-description: BlocJams is a music player similar to Spotify.
 

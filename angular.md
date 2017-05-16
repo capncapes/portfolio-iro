@@ -2,7 +2,7 @@
 layout: page
 title: Angular Notes
 permalink: /angular/
-feature-img: "img/brandon_caples.jpg"
+feature-img: "img/feature_image_4.png"
 hide: true
 ---
 
