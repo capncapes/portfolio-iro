@@ -1,6 +1,6 @@
 ---
 layout: post
-title: ngClick vs ngSubmit: Essentially the Same Thing?
+title: ngClick vs ngSubmit
 author: Brandon Caples
 feature-img: "img/starting_on_the_road_to_web_development.jpg"
 ---

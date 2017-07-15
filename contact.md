@@ -2,7 +2,7 @@
 layout: page
 title: Contact
 permalink: /contact/
-feature-img: "img/feature_image_5.png"
+feature-img: "img/feature_img_5.png"
 ---
 
 Got a question? Want to meet me? Send me a message! I'd love to read it, and I'll respond as soon as I can. Cheers!
@@ -13,5 +13,5 @@ Got a question? Want to meet me? Send me a message! I'd love to read it, and I'l
   <input class="form-name" type='text' name='name' placeholder='Your Full Name' />
   <input class="form-email" type='email' name='email' placeholder='Your Email Address' />
   <textarea class="form-message" name='message' placeholder='Write your message...'></textarea>
-  <input class="submit" type='submit' value='Send Message' />
+  <input class="submit" type='submit' value='Launch Message' />
 </form>

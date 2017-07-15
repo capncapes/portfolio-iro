@@ -22,7 +22,7 @@ header > p > span {
 }
 
 code {
-    color: rgba(56, 56, 56, 0.75);
+    color: #777;
 }
 
 .code {
@@ -42,7 +42,7 @@ h1.title {
 }
 
 .css {
-    border-left-color: deepskyblue;
+    border-left-color: #1ABC9C;
 }
 
 .javascript {
@@ -62,6 +62,7 @@ h1.title {
     width: 47.75%;
     height: 3rem;
     border: 2px solid #f98720;
+    padding: 1% 2%;
 }
 
 .form-name {
@@ -79,22 +80,38 @@ h1.title {
     width: 97%;
     height: 6rem;
     margin: 1% 1.5%;
+    padding: 1% 2%;
     border: 2px solid #f98720;
+}
+
+.form-name:focus, .form-email:focus, .form-message:focus {
+    border-color: #0091B2;
+}
+
+  .form-name::placeholder, .form-email::placeholder, .form-message::placeholder {
+    color: #777;
 }
 
 .submit {
     clear: both;
     width: auto;
     height: 3rem;
-    margin: 1% 1.5%;
-    padding: 0.5% 1%;
-    color: rgb(56, 56, 56);
+    margin: 5% 1.5%;
+    padding: 1% 2%;
+    color: #777;
     background-color: white;
-    border: 2px solid #f98752;
+    border: 2px solid #f98720;
     font-weight: 600;
+    text-transform: uppercase;
+    background-image: url(../img/rocketship.png);
+    background-size: 45%;
+    background-position: center center;
+    background-repeat: no-repeat;
+    text-shadow: -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff, 1px 1px 0 #fff;
 }
 
-.submit:hover {
+.submit:hover, .submit:active {
     background-color: #f98720;
     color: white;
+    text-shadow: none;
 }
