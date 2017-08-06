@@ -22,7 +22,7 @@ header > p > span {
 }
 
 code {
-    color: #777;
+    color: #0091B2;
 }
 
 .code {
@@ -37,12 +37,16 @@ h1.title {
     text-shadow: 0 0 15px rgb(56, 56, 56);
 }
 
+h3 code, h4 code, h5 code, h6 code {
+    color: #f98720;
+}
+
 .html {
     border-left-color: #f98720;
 }
 
 .css {
-    border-left-color: #1ABC9C;
+    border-left-color: #0091B2;
 }
 
 .javascript {
