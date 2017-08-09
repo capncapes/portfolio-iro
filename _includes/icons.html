@@ -38,14 +38,6 @@
 </li>
 {% endif %}
 
-{% if site.theme_settings.facebook %}
-<li>
-	<a href="https://www.facebook.com/{{ site.theme_settings.facebook }}" title="{{ site.theme_settings.str_follow_on }} Facebook">
-		<i class="fa fa-fw fa-facebook"></i>
-	</a>
-</li>
-{% endif %}
-
 {% if site.theme_settings.flickr %}
 <li>
 	<a href="https://www.flickr.com/photos/{{ site.theme_settings.flickr }}" title="{{ site.theme_settings.str_follow_on }} Flickr">
@@ -146,6 +138,14 @@
 <li>
 	<a href="https://{{ site.theme_settings.wordpress }}.wordpress.com/" title="{{ site.theme_settings.str_follow_on }} WordPress">
 		<i class="fa fa-fw fa-wordpress"></i>
+	</a>
+</li>
+{% endif %}
+
+{% if site.theme_settings.facebook %}
+<li>
+	<a href="https://www.facebook.com/{{ site.theme_settings.facebook }}" title="{{ site.theme_settings.str_follow_on }} Facebook">
+		<i class="fa fa-fw fa-facebook"></i>
 	</a>
 </li>
 {% endif %}

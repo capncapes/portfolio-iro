@@ -3,6 +3,7 @@ layout: post
 title: Address Book
 feature-img: "img/feature_img_9.png"
 thumbnail-path: "img/address-book_3x4.png"
+github: "https://github.com/capncapes/address-book/tree/master"
 short-description: Address Book is, well, an address book. Written with Ruby for the command line.
 
 ---

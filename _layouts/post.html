@@ -6,7 +6,8 @@ layout: default
     <h1 class="title">{{ page.title }}</h1>
     <p class="meta">
     <span>{{ page.date | date: "%B %-d, %Y" }}</span>
-    <span>{% if page.author %} by {{ page.author }}{% endif %}</span>
+    {% if page.author %}<span>by {{ page.author }}</span>{% endif %}
+    {% if page.github %}<span><a href="{{ page.github }}" target="_blank" style="color: rgba(255, 255, 255, 0.7);"><i class="fa fa-github"></i> GitHub</a></span>{% endif %}
     <span>{{ page.content | number_of_words }} words</span>
     </p>
   </header>

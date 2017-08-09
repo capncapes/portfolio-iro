@@ -42,6 +42,12 @@ Moves from the current branch to the specified branch.
 
 `git checkout -- file.md`: Discards changes made to `file.md` since beginning work with the current directory.
 
+### `clean`
+
+Cleans the working tree by removing untracked files.
+
+`git clean -fd`: Removes untracked directories and untracked files from the current branch.
+
 ### `commit`
 
 Stores the current content of the index in a new commit. A message must be added describing the commit using the syntax `git commit -m "message"`, with the message string wrapped in quotes.
