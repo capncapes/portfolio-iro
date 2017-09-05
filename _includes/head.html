@@ -1,9 +1,22 @@
 <head>
 	<meta charset="utf-8">
 	<title>{% if page.title %}{{ page.title }} |{% endif %} {{ site.theme_settings.title }}</title>
-	<meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.theme_settings.description }}{% endif %}">
+	<meta name="description" content="{% if page.short-description %}{{ page.short-description | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.theme_settings.description }}{% endif %}">
+    <meta name="author" content="Brandon Caples">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta http-equiv="X-Frame-Options" content="sameorigin">
+    
+    <!-- Open Graph -->
+    <meta property="og:title" content="{% if page.title %}{{ page.title | }}{% endif %}{{ site.theme_settings.title }}">
+    <meta property="og:image" content="{% if page.feature-img %}{{ page.feature-img }}{% else %}img/brandon_caples.jpg{% endif %}">
+    <meta property="og:description" content="{% if page.short-description %}{{page.short-description}}{% else %}{{ site.theme_settings.description }}{% endif %}">
+    
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:site" content="@capncapes" />
+    <meta name="twitter:title" content="{% if page.title %}{{ page.title | }}{% endif %}{{ site.theme_settings.title }}" />
+    <meta name="twitter:description" content="{% if page.short-description %}{{page.short-description}}{% else %}{{ site.theme_settings.description }}{% endif %}" />
+    <meta name="twitter:image" content="{% if page.thumbnail-path %}{{ page.thumbnail-path }}{% else %}img/avatar.png{% endif %}" />
 
 	<!-- CSS -->
 	<link rel="stylesheet" href="{{ "/css/main.css" | prepend: site.baseurl }}">
