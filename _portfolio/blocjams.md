@@ -3,6 +3,7 @@ layout: post
 title: BlocJams
 feature-img: "img/feature_img_1.png"
 thumbnail-path: "img/bloc_jams_3x4.png"
+social-share: "img/bloc-jams_63x120.png"
 github: "https://github.com/capncapes/bloc-jams"
 short-description: BlocJams is a music player similar to Spotify.
 
