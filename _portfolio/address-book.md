@@ -5,8 +5,7 @@ feature-img: "img/feature_img_9.png"
 thumbnail-path: "img/address-book_3x4.png"
 social-share: "img/address-book_63x120.png"
 github: "https://github.com/capncapes/address-book/tree/master"
-short-description: Address Book is, well, an address book. Written with Ruby for the command line.
-
+short-description: Address Book is written with Ruby for the command line.
 ---
 
 Address Book is my very first Ruby project, and it's written for the command line, without Rails. This project demonstrates the usefulness of Ruby as a records-driven solution. Though this project is small, Ruby is a preferred language for many development projects with a large database.
