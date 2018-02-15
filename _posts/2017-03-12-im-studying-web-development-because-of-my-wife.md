@@ -4,6 +4,7 @@ title: I'm Studying Web Development Because of My Wife
 author: Brandon Caples
 feature-img: "img/wedding.jpg"
 social-share: "img/im_studying_web_development_because_of_my_wife.png"
+short-description: My lovely wife, Jackie, is the one who encouraged me to pursue my dream of being a web developer.
 ---
 
 Today is my anniversary. My first anniversary, to be exact. And if it hadn't been for my lovely, wonderful, strong, intelligent wife Jackie, I would probably still be coding in only basic HTML and CSS. She pushed me to enroll in <a href="https://www.bloc.io/" target="_blank">Bloc</a>, and that's made all the difference.

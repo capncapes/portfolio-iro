@@ -4,6 +4,7 @@ title: Three Challenges of Learning to Code
 author: Brandon Caples
 feature-img: "img/three_challenges_of_learning_to_code.jpg"
 social-share: "img/three_challenges_of_learning_to_code.png"
+short-description: Learning to write code can be challenging. Here's what I struggled with at first.
 ---
 
 Web development is challenging; that's part of what makes it fun. Here are three challenges of learning to code that I've discovered.

@@ -4,6 +4,7 @@ title: Rails 5 and Rspec Parameters
 author: Brandon Caples
 feature-img: "img/rails_5_and_rspec_parameters.jpeg"
 social-share: "img/rails_5_and_rspec_parameters.png"
+short-description: Because of a deprecation to Rspec in Rails 5, parameters must now be placed inside a params hash.
 ---
 
 Because of a deprecation to Rspec in Rails 5, parameters must now be placed inside a params hash.
