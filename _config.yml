@@ -72,3 +72,6 @@ sass:
   style: :compressed
 
 plugins: [jekyll-paginate]
+
+# CONVERSION
+excerpt_separator: ""
