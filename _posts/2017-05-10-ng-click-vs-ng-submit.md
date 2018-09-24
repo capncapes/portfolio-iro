@@ -5,6 +5,7 @@ author: Brandon Caples
 feature-img: "img/ngclick_vs_ngsubmit.jpeg"
 social-share: "img/ngclick_vs_ngsubmit.png"
 short-description: The differences between ngClick and ngSubmit can be difficult to distinguish at first glance.
+canonical: https://www.capleswebdesign.com/posts/ngclick-vs-ngsubmit
 ---
 
 Angular has some nuances that can cause some trouble for beginners learning the framework. One of these little subtleties is the difference between `ng-click` and `ng-submit`, two of Angular’s many useful directives.

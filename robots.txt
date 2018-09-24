@@ -1,7 +1,2 @@
 User-agent: *
-Disallow: /2017/11/01/rails-5-and-rspec-parameters.html
-Disallow: /2017/05/10/ng-click-vs-ng-submit.html
-Disallow: /2017/03/12/im-studying-web-development-because-of-my-wife.html
-Disallow: /2017/01/07/three-challenges-of-learning-to-code.html
-Disallow: /2017/01/06/a-love-hate-relationship-with-internet-explorer.html
 Allow: /
