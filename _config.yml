@@ -1,6 +1,6 @@
 # SITE CONFIGURATION
 baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://brandoncaples.com" # the base hostname & protocol for your site
+url: "https://brandoncaples.com" # the base hostname & protocol for your site
 
 # THEME-SPECIFIC CONFIGURATION
 theme_settings:
@@ -15,7 +15,7 @@ theme_settings:
      <h1>Designer + Developer</h1>
   header_text_feature_image:
   footer_text: >
-   Powered by <a href="http://jekyllrb.com">Jekyll</a>
+   Powered by <a href="https://jekyllrb.com">Jekyll</a>
 
   # Icons
   rss: false
@@ -32,7 +32,7 @@ theme_settings:
   pinterest:
   reddit:
   soundcloud:
-  stack_exchange: # "http://stackexchange.com/users/9627195/brandon"
+  stack_exchange: # "https://stackexchange.com/users/9627195/brandon"
   steam:
   tumblr:
   twitter: "capncapes"
