@@ -4,14 +4,14 @@ layout: default
 
 <div class="home">
   {% if site.theme_settings.header_text %}
-  <div class="call-out" 
-  style="background-image: url('{{ site.baseurl }}/{{ site.theme_settings.header_text_feature_image }}'); background: linear-gradient(45deg, #f98720, #f7b733)">
+  <div class="call-out">
     {{ site.theme_settings.header_text }}
   </div>
   {% endif %}
     
   <div class="work">
     <h2>My Work</h2>
+    {% assign projects = (site.portfolio | sort: 'date') | reverse %}
     {% for project in site.portfolio limit:6 %}
         <li>
             <a href="{{ project.url }}"><img src="{{ project.thumbnail-path }}" alt="{{ project.title }}"/></a>
@@ -25,12 +25,10 @@ layout: default
     <h2>My Posts</h2>
     {% for post in paginator.posts %}
     <div class="post-teaser">
-      <header>
-        <h1><a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h1>
+        <h3><a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h3>
         <p class="meta">
           {{ post.date | date: "%B %-d, %Y" }}
         </p>
-      </header>
       <div class="excerpt">
         {{ post.excerpt }}
         <a class="button" href="{{ post.url | prepend: site.baseurl }}">

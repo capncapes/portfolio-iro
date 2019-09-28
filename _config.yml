@@ -8,14 +8,14 @@ theme_settings:
   title: Brandon Caples
   avatar: rocketship.png
   gravatar: # Email MD5 hash
-  description: "I'm a web developer specializing in Ruby on Rails, with experience with JavaScript, HTML/CSS, Git, AngularJS, Ruby, and more." # used by search engines
+  description: "I'm a WordPress and Ruby web developer with marketing, SEO, and design experience." # used by search engines
 
   # Header and footer text
   header_text: >
-     <h1>Designer + Developer</h1>
+     <h1>Graphic & Web Designer</h1>
   header_text_feature_image:
   footer_text: >
-   Powered by <a href="https://jekyllrb.com">Jekyll</a>
+   Also check out <a href="https://www.capleswebdesign.com/">Caples Web Design</a>
 
   # Icons
   rss: false
@@ -26,7 +26,6 @@ theme_settings:
   facebook: "bcaples"
   flickr:
   github: "capncapes"
-  google_plus: "+brandoncaples"
   instagram:
   linkedin: "https://www.linkedin.com/in/brandoncaples"
   pinterest:
@@ -54,7 +53,7 @@ theme_settings:
 
   # Colours, typography and padding
   # Open the "_sass > base" folder, and open "_variables.scss"
-  google_fonts: "Source+Sans+Pro:400,700,700italic,400italic"
+  google_fonts: "Montserrat:500|Stoke&display=swap"
 
 # PAGINATION
 paginate: 5
