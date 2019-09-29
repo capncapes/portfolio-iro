@@ -1,69 +1,94 @@
 // Header text feature
 .call-out {
-  @extend %padding-regular;
-  display: inline-block;
-  width: 100%;
-  background: $green-blue-gradient;
-  background-size: cover;
-  font-size: 1.2em;
-  text-align: center;
-  color: #fff;
+	@extend %padding-regular;
+	display: inline-block;
+	width: 100%;
+	background: $green-blue-gradient;
+	background-size: cover;
+	font-size: 1.2em;
+	text-align: center;
+	color: #fff;
 }
 .call-out p:last-child {
-  margin-bottom: 0;
+	margin-bottom: 0;
 }
 // Post listing
 .posts {
-  h2 {
-    padding:5% 20% 0%;
-    text-align: center;
-  }
-  .post-teaser {
-    @extend %padding-regular;
-    width: 100%;
-    margin-bottom: 0;
-    display: inline-block;
-    background-size: $feature-image-size;
-    border-bottom: 1px solid $border-color;
-    p a:hover {
-      @extend %link-hover;
-    }
-  }
-  .excerpt {
-    margin-top: 1em;
-  }
+	h2 {
+		padding: 5% 20% 0%;
+		text-align: center;
+	}
+	.post-teaser {
+		@extend %padding-regular;
+		width: 100%;
+		margin-bottom: 0;
+		display: inline-block;
+		background-size: $feature-image-size;
+		border-bottom: 1px solid $border-color;
+		p a:hover {
+			@extend %link-hover;
+		}
+	}
+	.excerpt {
+		margin-top: 1em;
+	}
 }
 
 // Work listing
 .work {
-  h2 {
-    text-align: center;
-  }
-  @extend %padding-regular;
-  background-size: $feature-image-size;
-  border-bottom: 1px solid $border-color;
-  li {
-    width: 32%;
-    margin-right:0.5%;
-    margin-left:0.5%;
-    margin-bottom: 0;
-    display: inline-block;
-    p a:hover {
-      @extend %link-hover;
-    }
-  }
-  .excerpt {
-    margin-top: 1em;
-  }
+	display: -webkit-box; 
+	display: -moz-box;
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	display: flex;
+	-ms-flex-direction: column;
+	-webkit-flex-direction: column;
+	flex-direction: column;
+	h2 {
+		width: 100%;
+		text-align: center;
+	}
+	@extend %padding-regular;
+	background-size: $feature-image-size;
+	border-bottom: 1px solid $border-color;
+	.project {
+		width: 100%;
+		margin-right: 0;
+		margin-left: 0;
+		margin-bottom: 0;
+		display: inline-block;
+		p a:hover {
+			@extend %link-hover;
+		}
+	}
+	.excerpt {
+		margin-top: 1em;
+	}
 }
 // Pagination
 .pagination .button {
-  margin: 0 1.5em;
-  i {
-    vertical-align: middle;
-  }
+	margin: 0 1.5em;
+	i {
+		vertical-align: middle;
+	}
 }
 .pagination {
-  padding: $padding-small $padding-large 0 $padding-large;
-  text-align: center;
+	padding: $padding-small $padding-large 0 $padding-large;
+	text-align: center;
+}
+
+@media only screen and (min-width: 771px) {
+	.work {
+		-ms-flex-direction: row;
+		-webkit-flex-direction: row;
+		flex-direction: row;
+		-webkit-justify-content: space-between;
+		-moz-justify-content: space-between;
+		-ms-flex-pack: space-between;
+		justify-content: space-between;
+		flex-wrap: wrap;
+	}
+	.work .project {
+		width: 30%;
+	}
 }

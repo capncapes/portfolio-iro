@@ -5,7 +5,7 @@ url: "https://brandoncaples.com" # the base hostname & protocol for your site
 # THEME-SPECIFIC CONFIGURATION
 theme_settings:
   # Meta
-  title: Brandon Caples
+  title: Graphic & Web Designer, WordPress, SEO | Brandon Caples
   avatar: rocketship.png
   gravatar: # Email MD5 hash
   description: "I'm a WordPress and Ruby web developer with marketing, SEO, and design experience." # used by search engines
