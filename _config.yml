@@ -11,6 +11,7 @@ theme_settings:
   description: "I'm a WordPress and Ruby web developer with marketing, SEO, and design experience." # used by search engines
 
   # Header and footer text
+  header_title: Brandon Caples
   header_text: >
      <h1>Graphic & Web Designer</h1>
   header_text_feature_image:

@@ -2,30 +2,34 @@
 	<div class="branding">
 		{% if site.theme_settings.gravatar %}
 		<a href="{{ site.baseurl }}/">
-			<img class="avatar" src="https://secure.gravatar.com/avatar/{{ site.theme_settings.gravatar }}?s=100" alt=""/>
-		</a>
+			<img class="avatar" src="https://secure.gravatar.com/avatar/{{ site.theme_settings.gravatar }}?s=100" alt="{{ site.theme_settings.header_title }}"/>
 		{% elsif site.theme_settings.avatar %}
 		<a href="{{ site.baseurl }}/">
-			<img class="avatar" src="/img/{{ site.theme_settings.avatar }}" alt=""/>
-		</a>
+			<img class="avatar" src="/img/{{ site.theme_settings.avatar }}" alt="{{ site.theme_settings.header_title }}"/>
+		{% else %}
+		<a href="{{ site.baseurl }}/">
 		{% endif %}
-		<h1 class="site-title">
-			<a href="{{ site.baseurl }}/">{{ site.theme_settings.title }}</a>
-		</h1>
+			<span class="site-title">{{ site.theme_settings.header_title }}</span>
+		</a>
 	</div>
-	<nav class="site-nav">
-		<ul>
-			{% for page in site.pages %}
-			{% if page.title and page.hide != true %}
-			<li>
-				<a class="page-link" href="{{ page.url | prepend: site.baseurl }}">
-					{{ page.title }}
-				</a>
-			</li>
-			{% endif %}
-			{% endfor %}<br/>
-			<!-- Social icons from Font Awesome, if enabled -->
-			{% include icons.html %}
-		</ul>
-	</nav>
+	<div id="nav-wrapper" class="hide">
+		<nav class="site-nav" id="site-nav">
+			<ul>
+				{% for page in site.pages %}
+				{% if page.title and page.hide != true %}
+				<li>
+					<a class="page-link" href="{{ page.url | prepend: site.baseurl }}">
+						{{ page.title }}
+					</a>
+				</li>
+				{% endif %}
+				{% endfor %}
+				<!-- Social icons from Font Awesome, if enabled -->
+				<!-- {% include icons.html %} -->
+			</ul>
+		</nav>
+	</div>
+	<a id="nav-trigger" class="nav-icon">
+		<i class="fa fa-bars"></i>
+	</a>
 </header>

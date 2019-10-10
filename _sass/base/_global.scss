@@ -9,10 +9,12 @@ html {
 
 // Typography
 ::selection {
-	background: $selection-color;
+	color: #fff;
+	background: $blue;
 }
 ::-moz-selection {
-	background: $selection-color;
+	color: #fff;
+	background: $blue;
 }
 body {
 	color: $text-color;
@@ -99,6 +101,15 @@ hr {
 a {
 	color: $link-color;
 	text-decoration: none;
+}
+.home a:not(.btn):not(input):hover {
+	background: -webkit-gradient(linear, left top, right top, from(#03A65A), to(#2648A8));
+	background: linear-gradient(to right, #03A65A, #2648A8);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	-webkit-box-decoration-break: clone;
+	box-decoration-break: clone;
+	text-shadow: none;
 }
 .nav {
 	list-style: none;

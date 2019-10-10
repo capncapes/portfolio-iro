@@ -1,53 +1,109 @@
 .site-header {
-  @extend %padding-small;
-  background: $brand-color;
-  border-bottom: 1px solid $border-color;
-  display: inline-block;
-  float: left;
-  width: 100%;
+	@extend %padding-small;
+	background: $brand-color;
+	display: inline-block;
+	width: 100%;
 
-  a {
-    color: $header-link-color;
-  }
+	a {
+		display: inherit;
+		color: $header-link-color;
+	}
 
-  .avatar {
-    height: 2em;
-    width: 2em;
-    float: left;
-    margin-top: -3px;
-    border-radius: 0.2em;
-    margin-right: 1em;
-  }
+	.branding, #nav-wrapper {
+		display: inline;
+	}
 
-  .site-title {
-    float: left;
-    font-weight: bold;
-    font-size: 1em;
-    line-height: 1.5;
-  }
+	.branding {
+		display: inline-block;
+		a {
+			display: -webkit-box; 
+			display: -moz-box;
+			display: -ms-flexbox;
+			display: -webkit-flex;
+			display: flex;
+			-webkit-align-items: center;
+			align-items: center;
+		}
+		.avatar {
+			height: 3rem;
+			width: auto;
+			margin-right: 1em;
+		}
 
-  .site-nav {
-    ul {
-      margin: 0;
-      padding: 0;
-      list-style: none;
-      line-height: 1.5;
-      float: right;
-      text-align: right;
-    }
-    li {
-      display: inline;
-      float: left;
-      margin-right: 0.4em;
-    }
-    @media (max-width: 1100px) {
-      ul {
-        display: inline-block;
-        float: left;
-        padding-top: $padding-small;
-        text-align: left;
-        width: 100%;
-      }
-    }
-  }
+		.site-title {
+			margin: 0;
+			font-weight: bold;
+			font-size: 1.5rem;
+			line-height: 1.5;
+		}
+	}
+
+	#nav-wrapper {
+		float: right;
+		.site-nav {
+			ul {
+				margin: 0;
+				padding: 0;
+				list-style: none;
+				line-height: 1.5;
+				text-align: center;
+			}
+			li {
+				display: inline;
+				float: left;
+				margin-right: 0.4em;
+			}
+			@media (max-width: 1100px) {
+				ul {
+					display: inline-block;
+					width: 100%;
+					float: left;
+					padding-top: $padding-small;
+					text-align: left;
+				}
+			}
+		}
+	}
+
+	@media (max-width: 601px) {
+		.site-header {
+			position: relative;
+			height: 90px;
+		}
+		#nav-trigger {
+			display: block;
+		}
+		#nav-wrapper.hide {
+			display: none;
+		}
+	}
+
+	@media only screen and (min-width: 600px) {
+		.nav-icon {
+			display: none;
+		}
+	}
+
+	#nav-wrapper.show {
+		display: block;
+		display: flex;
+		position: fixed;
+		top: 90px;
+		left: 0;
+		width: 100%;
+		height: 100%;
+		background-color: rgba(248,249,250,0.95);
+			z-index: 10;
+		ul {
+			li {
+				display: block;
+				float: none;
+			}
+		}
+	}
+
+	#nav-trigger {
+		font-size: 2.5rem;
+		float: right !important;
+	}
 }
